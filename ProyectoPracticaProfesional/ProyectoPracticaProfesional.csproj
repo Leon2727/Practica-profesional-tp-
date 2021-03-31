@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Difficulty.cs" />
     <Compile Include="Model\Game.cs" />
     <Compile Include="Model\Score.cs" />
     <Compile Include="Model\User.cs" />
