@@ -7,3 +7,14 @@ C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\ProyectoPracticaProfesion
 C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.csproj.CoreCompileInputs.cache
 C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.exe
 C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.pdb
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\bin\Debug\ProyectoPracticaProfesional.exe.config
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\bin\Debug\ProyectoPracticaProfesional.exe
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\bin\Debug\ProyectoPracticaProfesional.pdb
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.csprojAssemblyReference.cache
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.Properties.Resources.resources
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.home.resources
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.csproj.GenerateResource.cache
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.csproj.CoreCompileInputs.cache
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.exe
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.pdb
+C:\Users\Nano\Documents\HILET\3ro\Practica Profesional\Practica-profesional-tp-\ProyectoPracticaProfesional\obj\Debug\ProyectoPracticaProfesional.View.userForm.resources

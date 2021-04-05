@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProyectoPracticaProfesional.Model
 {
-    public class Difficulty
+    public class Image
     {
-        private int Id { get; set; }
-        private string Name { get; set; }
-        public Difficulty() { }
+        
     }
 }
