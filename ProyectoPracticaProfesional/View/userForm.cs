@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoPracticaProfesional.Controller;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,16 +11,34 @@ using System.Windows.Forms;
 
 namespace ProyectoPracticaProfesional.View
 {
-    public partial class userForm : Form
+    public partial class UserForm : Form
     {
-        public userForm()
+        private UserController userController = new UserController();
+        
+        public UserForm()
         {
             InitializeComponent();
         }
 
-        private void user_Load(object sender, EventArgs e)
-        {
-            
+        private void buttonOk_Click(object sender, EventArgs e)
+        {  
+            if (!string.IsNullOrEmpty(textBoxName.Text) && !string.IsNullOrEmpty(textBoxAge.Text))
+            {
+                var name = textBoxName.Text;
+                var age = Convert.ToInt32(textBoxAge.Text);
+                userController.CreateUser(name, age);
+                DifficultyForm difficultyForm = new DifficultyForm(userController);
+                difficultyForm.ShowDialog();
+                this.Close();
+            }
+            else if (string.IsNullOrEmpty(textBoxName.Text))
+            {
+                textBoxName.Focus();
+            }
+            else
+            {
+                textBoxAge.Focus();
+            }
         }
     }
 }

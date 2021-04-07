@@ -63,9 +63,29 @@ namespace ProyectoPracticaProfesional.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondo {
+            get {
+                object obj = ResourceManager.GetObject("fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fondoconlogo {
             get {
                 object obj = ResourceManager.GetObject("fondoconlogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuElegirDificultad {
+            get {
+                object obj = ResourceManager.GetObject("MenuElegirDificultad", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +106,16 @@ namespace ProyectoPracticaProfesional.Properties {
         internal static System.Drawing.Bitmap MenuUsuarioTPFinal {
             get {
                 object obj = ResourceManager.GetObject("MenuUsuarioTPFinal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OpcionesTPFinal {
+            get {
+                object obj = ResourceManager.GetObject("OpcionesTPFinal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

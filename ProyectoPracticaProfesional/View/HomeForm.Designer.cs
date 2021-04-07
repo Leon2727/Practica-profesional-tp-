@@ -31,7 +31,7 @@ namespace ProyectoPracticaProfesional
         {
             this.components = new System.ComponentModel.Container();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.buttonPla = new System.Windows.Forms.Button();
+            this.buttonPlay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // imageList1
@@ -40,30 +40,31 @@ namespace ProyectoPracticaProfesional
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // buttonPla
+            // buttonPlay
             // 
-            this.buttonPla.BackColor = System.Drawing.Color.Transparent;
-            this.buttonPla.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonPla.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.buttonPla.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.buttonPla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonPla.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonPla.Location = new System.Drawing.Point(197, 760);
-            this.buttonPla.Name = "buttonPla";
-            this.buttonPla.Size = new System.Drawing.Size(255, 68);
-            this.buttonPla.TabIndex = 0;
-            this.buttonPla.UseVisualStyleBackColor = false;
-            this.buttonPla.Click += new System.EventHandler(this.buttonPla_Click);
+            this.buttonPlay.BackColor = System.Drawing.Color.Transparent;
+            this.buttonPlay.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonPlay.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonPlay.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPlay.ForeColor = System.Drawing.Color.Transparent;
+            this.buttonPlay.Location = new System.Drawing.Point(197, 760);
+            this.buttonPlay.Name = "buttonPlay";
+            this.buttonPlay.Size = new System.Drawing.Size(255, 68);
+            this.buttonPlay.TabIndex = 0;
+            this.buttonPlay.UseVisualStyleBackColor = false;
+            this.buttonPlay.Click += new System.EventHandler(this.buttonPlay_Click);
             // 
             // home
             // 
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = global::ProyectoPracticaProfesional.Properties.Resources.MenuPrincipal_TPFinal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(654, 928);
-            this.Controls.Add(this.buttonPla);
+            this.ClientSize = new System.Drawing.Size(654, 926);
+            this.Controls.Add(this.buttonPlay);
             this.DoubleBuffered = true;
             this.Name = "home";
             this.Text = "Mi Primer Puzzle";
@@ -73,7 +74,7 @@ namespace ProyectoPracticaProfesional
 
         #endregion
         private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.Button buttonPla;
+        private System.Windows.Forms.Button buttonPlay;
     }
 }
 

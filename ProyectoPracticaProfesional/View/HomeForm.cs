@@ -17,10 +17,11 @@ namespace ProyectoPracticaProfesional
         {
             InitializeComponent();
         }
-        private void buttonPla_Click(object sender, EventArgs e)
+        private void buttonPlay_Click(object sender, EventArgs e)
         {
-            userForm userForm = new userForm();
+            UserForm userForm = new UserForm();
             userForm.ShowDialog();
+            this.Close();
         }
     }
 }

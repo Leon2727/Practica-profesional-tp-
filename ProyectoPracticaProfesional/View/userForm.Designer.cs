@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoPracticaProfesional.View
 {
-    partial class userForm
+    partial class UserForm
     {
         /// <summary>
         /// Required designer variable.
@@ -43,6 +43,7 @@ namespace ProyectoPracticaProfesional.View
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(338, 42);
             this.textBoxName.TabIndex = 0;
+
             // 
             // textBoxAge
             // 
@@ -61,25 +62,26 @@ namespace ProyectoPracticaProfesional.View
             this.buttonOk.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.buttonOk.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOk.Location = new System.Drawing.Point(275, 616);
+            this.buttonOk.Location = new System.Drawing.Point(275, 728);
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(94, 56);
             this.buttonOk.TabIndex = 2;
             this.buttonOk.UseVisualStyleBackColor = false;
+            this.buttonOk.Click += new System.EventHandler(this.buttonOk_Click);
             // 
-            // userForm
+            // UserForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoPracticaProfesional.Properties.Resources.MenuUsuarioTPFinal;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(654, 791);
+            this.ClientSize = new System.Drawing.Size(654, 926);
             this.Controls.Add(this.buttonOk);
             this.Controls.Add(this.textBoxAge);
             this.Controls.Add(this.textBoxName);
-            this.Name = "userForm";
-            this.Text = "user";
-            this.Load += new System.EventHandler(this.user_Load);
+            this.Name = "UserForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Mi Primer Puzzle";
             this.ResumeLayout(false);
             this.PerformLayout();
 
